@@ -115,6 +115,14 @@ img {
 	grid-column: 2/ span 2;
 }
 
+.third .desc {
+	color: hsl(219, 29%, 14%);
+}
+
+.fourth .desc {
+	color: hsl(217, 19%, 35%);
+}
+
 @media (max-width:450px) {
 	main.card{
 		width: 320px;
