@@ -115,12 +115,12 @@ img {
 	grid-column: 2/ span 2;
 }
 
-.third .desc {
-	color: hsl(219, 29%, 14%);
+.third .desc, .fourth .desc {
+	color: hsl(217, 19%, 35%);
 }
 
-.fourth .desc {
-	color: hsl(217, 19%, 35%);
+.fourth .second-desc, .first .second-desc {
+	color: hsl(0, 0%, 81%);
 }
 
 @media (max-width:450px) {
