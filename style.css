@@ -119,8 +119,13 @@ img {
 	color: hsl(217, 19%, 35%);
 }
 
-.fourth .second-desc, .first .second-desc, .third .second-desc {
+.first .second-desc {
 	color: hsl(0, 0%, 81%);
+}
+
+.third .second-desc, .fourth .second-desc {
+	color: hsl(0, 0%, 61%);
+	opacity: 100%;
 }
 
 @media (max-width:450px) {
